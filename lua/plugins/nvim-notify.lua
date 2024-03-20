@@ -6,7 +6,7 @@ return {
     opts = {
       level = 2,
       render = "default",
-      timeout = 1,
+      timeout = 3,
       position = "bottom_left",
       --stages = "fade",
     },

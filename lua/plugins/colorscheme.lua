@@ -1,12 +1,14 @@
 return {
   {
     "folke/tokyonight.nvim",
-    lazy = true,
+    lazy = false,
     opts = {
       style = "moon",
       transparent = true,
       styles = {
-        sidebar = "transparent",
+        -- Background styles. Can be "dark", "transparent" or "normal"
+        sidebars = "transparent", -- style for sidebars, see below
+        floats = "transparent", -- style for floating windows
       },
     },
   },
@@ -16,6 +18,7 @@ return {
     "LazyVim/LazyVim",
     opts = {
       colorscheme = "kanagawa",
+      -- colorscheme = "tokyonight",
     },
   },
 }

@@ -5,6 +5,7 @@ return {
     name = "catppuccin",
     priority = 999,
     opts = {
+      transparent_background = false, -- disables setting the background color.
       integrations = {
         aerial = true,
         alpha = true,
