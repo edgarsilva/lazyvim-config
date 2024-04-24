@@ -10,7 +10,7 @@
 -- vim.g.root_spec = { { ".git", "lua" }, "cwd", "lsp" }
 -- lvim.builtin.project.detection_methods = { "pattern" } -- lvim default [1]
 -- vim.project.patterns = { ".git" } -- defaults include other VCSs, Makefile, package.json
-vim.opt.winbar = "%r %y %=%m %f"
+-- vim.opt.winbar = "%r %y %=%m %f"
 -- lua/config/options.lua
 -- vim.opt.listchars = {
 --   tab = "> ",
