@@ -5,7 +5,7 @@ return {
   config = function()
     require("silicon").setup({
       -- Configuration here, or leave empty to use defaults
-      theme = "gruvbox-dark",
+      theme = "Dracula",
       background = "#3580BB",
       font = "Cascadia Code=34;FiraCode Nerd Font=34",
       to_clipboard = true,
